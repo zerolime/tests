@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #fbc;
+    overflow: visible;
+    margin-bottom: 20px;
+    height: 90px;
+}
+
+header img {
+    float: left;
+    width: 80px;
+    clear: right;
+}
+
+header nav {
+    background-color: #bfc;
+    margin: 5px;
+    padding: 15px 50px;
+}
+
+header nav ul {
+    margin: 0 auto;
+
+}
+
+header nav li {
+    display: inline-block;
+    background-color: red;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.container {
+    min-width: 600px;
+    max-width: 1200px;
+    background-color: skyblue;
+    min-height: calc(100vh - 220px);
+    overflow: visible;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container nav {
+    background-color: red;
+    padding: 0 20px
+}
+
+.container nav ul {
+    list-style: none;
+}
+
+.container nav li {
+    text-align: center;
+    font-size: 24px;
+    padding: 6px;
+    margin: 5px;
+    background-color: #fdd;
+    border-radius: 6px;
+}
+
+.container main {
+    margin: 10px 20px;
+    background-color: blue;
+    color: white;
+}
+
+.container main h1 {
+    text-align: center;
+    color: #eee;
+}
+
+.container main p {
+    font-size: 24px;
+    padding: 5px 10px;
+    font-weight: 300;
+    color: #ddd;
+}
+
+.container main figure {
+    font-size: 16px;
+    color: #ddd;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.other {
+    display: flex;
+    flex-direction: row;
+}
+
+.other section {
+    background-color: #bd8;
+    font-size: 16px;
+    color: #222;
+    margin: 20px 5px 5px 5px;
+    text-align: center;
+}
+
+.other section p {
+    color: #222;
+}
+
+.other section h2 {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    height: 90px;
+    background-color: green;
+}
+
+footer p {
+     line-height: 90px;
+     text-align: center;
+     font-size: 20px;
+}

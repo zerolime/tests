@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Marmelad|Underdog&subset=cyrillic');
+
+body {
+  font-family: 'Marmelad', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("images/bg_pattern.jpg");
+  font-weight: 100;
+}
+
+h1, h2, h3, p {
+  font-weight: inherit;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.menu {
+  margin: auto;
+  margin-left: 4px;
+}
+
+.header {
+  display: flex;
+  overflow: visible;
+  background: #f0f0f0;
+  width: 100%;
+  height: 95px;
+  box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.5),
+              0 0 40px rgba(0, 0, 0, .1) inset;
+  position: relative;
+  z-index: 1;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.header .logo_s img, .menu_p  {
+  border: 2px solid #383;
+  border-radius: 80px 20px;
+  background-color: #e9e9e9;
+  transition: .1s ease-in-out;
+}
+
+.header .logo_s img  {
+
+}
+
+.logo_s img:hover, .menu_p:hover {
+  background-color: #ccc;
+  box-shadow: 5px 0px 5px -1px rgba(51,51,51,0.65);
+  }
+
+.logo_s img:active, .menu_p:active {
+  background-color: #bbb;
+  box-shadow: 5px 0px 5px -1px rgba(51,51,51,0.65)inset;
+}
+
+.menu_p {
+  display: block;
+  width: 279px;
+  padding-top: 31.6px;
+  padding-bottom: 31.6px;
+  text-align: center;
+}
+
+.menu_p:hover {
+
+}
+
+.menu_p:active {
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(34, 209, 48, 1)
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: 'Underdog';
+  font-size: 24px;
+  color: #444;
+}
+
+.form_login {
+  padding-top:  5px;
+}
+
+.header form {
+align-self: flex-end;
+}
+
+.header form a {
+  text-decoration: none;
+  font-family: 'Underdog';
+  font-size: 12px;
+  color: #444;
+}
+
+.header form a:hover {
+text-shadow: 0px 0px 5px rgba(34, 209, 48, 1);
+}
+
+.header span {
+  color: #f0f0f0;
+}
+
+.container {
+  min-width: 800px;
+  max-width: 1200px;
+  width:  84%;
+  background: rgba(153, 204, 255, .9);
+  margin: 0 auto;
+  margin-top: 0px;
+  padding-bottom: 50px;
+  min-height: calc(100vh - 226.333px);
+  box-shadow:0 1px 4px rgba(0, 0, 0, .3),
+             -23px 0 20px -23px rgba(0, 0, 0, .8),
+             23px 0 20px -23px rgba(0, 0, 0, .8),
+             0 0 40px rgba(0, 0, 0, .1) inset;
+}
+
+.product a {
+  text-decoration: none;
+  color: #449;
+}
+
+.product a:hover{
+  text-shadow: 0px 0px 5px rgba(34, 209, 48, 1);
+}
+
+.content {
+  padding: 30px;
+}
+
+table {
+  text-align: left;
+  border-spacing: 10px;
+}
+
+table td {
+  padding-right: 50px;
+}
+
+.content form input:focus {
+  background: #494;
+  color: #eee;
+}
+
+.content form input {
+text-transform: capitalize;
+}
+
+.logo {
+  width:  100%;
+}
+
+.products ul {
+  margin-left: 30px;
+  display: flex;
+}
+
+.products li {
+  display: inline-block;
+}
+
+.product {
+  width: 310px;
+  margin: 0 30px 30px 0px;
+  border: 2px solid blue;
+  border-radius: 25px;
+    background-color: #bef;
+}
+
+.product img {
+  border: 2px solid #22D130;
+  border-radius: 14px;
+  margin: 28px;
+  min-width: 205px;
+  max-width: 250px;
+}
+
+.pics {
+  display: flex;
+}
+
+.pics ul  {
+  margin: 0px;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #22D130;
+  border-radius: 9px;
+  background-color: #fff;
+  width: 40%;
+  height: 600px;
+}
+
+.pics  li {
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
+
+.pic {
+  width: 100%;
+}
+
+.pic img {
+  width: 200px;
+  transition: 0.2s ease-in-out;
+}
+
+.pic img:hover {
+  transform: scale(1.25);
+}
+
+.pic img:not(hover) {
+  transform: scale(0.8);
+}
+
+.description {
+  background-color: rgba(173, 224, 255, .4);
+  border-radius: 9px;
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+  padding: 10px 0;
+  height: 600px;
+  border: 2px solid #4250f1;
+  transition: 0.1s ease-in-out;
+}
+
+.description:hover {
+  overflow: visible;
+  height: auto;
+  z-index: 2;
+}
+
+.navi_s {
+  height: 95px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navi_sd {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navi_sp {
+  border: 0px solid #338;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #e9e9e9;
+  padding-top: 31.6px;
+  padding-bottom: 31.6px;
+  text-align: center;
+  box-shadow: inset rgba(0,0,0,.5) -3px -3px 8px,
+              inset rgba(255,255,255,.9) 3px 3px 8px,
+              rgba(0,0,0,.8) 3px 3px 8px -3px,
+              0px 0px 0px 1px #338 inset;
+  text-decoration: none;
+  font-family: 'Marmelad';
+  font-size: 20px;
+  color: #444;
+  transition: .1s ease-in-out;
+}
+
+.navi_sp:hover {
+  background-color: #ddd;
+  box-shadow:  inset rgba(0,0,0,.5) -5px -5px 12px,
+               inset rgba(255,255,255,.9) 5px 5px 12px,
+               rgba(0,0,0,.8) 5px 5px 5px -5px,
+               0px 0px 0px 1px #338 inset;
+}
+
+.price:hover::before {
+  content:  'Купить за\0a'
+}
+
+.navi_sp:active {
+  background-color: #bbb;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(34, 209, 48, 1);
+  box-shadow: inset rgba(0,0,0,.5) 5px 5px 12px,
+              inset rgba(255,255,255,.9) -2px -2px 5px,
+              rgba(255,255,255,.8) 2px 2px 2px -2px,
+              0px 0px 0px 1px #338 inset;
+}
+
+.footer {
+  position: relative;
+
+  background: #246B37;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 -12px 10px -4px rgba(0, 0, 0, .4);
+  height: 90px;
+}
+
+.footer p {
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  color: #eee;
+  font-size: 18px;
+  right: 20px;
+  top: 10px;
+  text-shadow: 0px -3px 7px rgba(80, 80, 80, 1);
+}
+
+.product h3{
+    text-align: center;
+}

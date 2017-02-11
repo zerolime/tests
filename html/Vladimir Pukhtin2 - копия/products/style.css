@@ -1,0 +1,15 @@
+img {
+  width: 100px;
+}
+
+.imgg:hover {
+  border: 2px solid #0dd;
+}
+.imgg {
+  padding: 3px;
+  margin: 3px;
+}
+
+.imgg:hover:after {
+  content: attr($);
+}
