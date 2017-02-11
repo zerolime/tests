@@ -41,8 +41,7 @@ header nav li {
     background-color: skyblue;
     min-height: calc(100vh - 220px);
     overflow: visible;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
     display: flex;
     flex-direction: row;
 }
