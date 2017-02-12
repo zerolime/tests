@@ -3,8 +3,8 @@
 body {
   font-family: 'Marmelad', sans-serif;
   background-color: #f0f0f0;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-image: url("images/bg_pattern.jpg");
   font-weight: 100;
 }
@@ -26,7 +26,7 @@ h1, h2, h3, p {
   background: #f0f0f0;
   width: 100%;
   height: 95px;
-  box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.5),
+  box-shadow: 0 9px 15px -1px rgba(0,0,0,0.5),
               0 0 40px rgba(0, 0, 0, .1) inset;
   position: relative;
   z-index: 1;
@@ -35,8 +35,8 @@ h1, h2, h3, p {
 .menu ul {
   display: flex;
   flex-direction: row;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -57,12 +57,12 @@ h1, h2, h3, p {
 
 .logo_s img:hover, .menu_p:hover {
   background-color: #ccc;
-  box-shadow: 5px 0px 5px -1px rgba(51,51,51,0.65);
+  box-shadow: 5px 0 5px -1px rgba(51,51,51,0.65);
   }
 
 .logo_s img:active, .menu_p:active {
   background-color: #bbb;
-  box-shadow: 5px 0px 5px -1px rgba(51,51,51,0.65)inset;
+  box-shadow: 5px 0 5px -1px rgba(51,51,51,0.65)inset;
 }
 
 .menu_p {
@@ -79,7 +79,7 @@ h1, h2, h3, p {
 
 .menu_p:active {
   color: #fff;
-  text-shadow: 0px 0px 10px rgba(34, 209, 48, 1)
+  text-shadow: 0 0 10px rgba(34, 209, 48, 1)
 }
 
 .menu a {
